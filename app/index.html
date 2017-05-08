@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="">
   <head>
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -11,95 +11,512 @@
 
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-    
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
+    <!-- begin style sheets -->
+    <link href="styles/bootstrap.css" rel="stylesheet">
+    <link href="styles/bootstrap-responsive.css" rel="stylesheet">
+    <!-- <link href="styles/instagrid.css" rel="stylesheet"> -->
+    <link href="styles/prettyPhoto.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/language.css" rel="stylesheet">
+    <link href="styles/typed.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
+    <!-- end style sheets -->
+
+
+
   </head>
   <body>
-    <!--[if IE]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active">
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
+<div class="container">
+<header>
+<!-- begin top panel section -->
+  <!-- begin language selection section -->
+    <!-- Top Panel
+    ================================================== -->
+    <div id="top-panel">
+      <div class="login-box">
+        <form>
+      <div class="input-prepend">
+        <h5>English</h5>
+          </div>
+      <div class="input-prepend">
+        <h5>中文</h5>
+          </div>
+      <div class="input-prepend">
+        <h5>Español</h5>
+          </div>
+        </form>
+      </div>
+      <!-- login-box -->
+        <div class="login-button toggle">
+          <a href="#" class="language-select">Select Language</a>
+        </div>
+    </div>
+  <!-- end language selection section -->
+<!-- end top panel section -->
+
+<!-- begin navigation bar -->
+ <div class="row">
+      <div class="span3 logo">
+        <!-- begin logo -->
+        <a href="index.html"><img src="images/eDKLogo.png" alt="" /></a>
+        <!-- end logo -->
+      </div>
+      <div class="span9 navigation">
+        <div id="menu" class="fix-fish-menu clearfix">
+          <ul id="nav" class="sf-menu">
+            <li class="active"><a href="index.html">Home</a>
+            </li>
+      <li> <a href="typography.html">About</a></li>
+            <li> <a href="#">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+      <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+          <!-- end #nav  -->
+        </div>
+        <!-- end #menu  -->
+      </div>
+      <!-- navigation -->
+    </div>
+    <!-- row -->
+    <!-- begin line break -->
+    <div class="row">
+      <div class="span3"><div class="border-5-1"></div></div>
+      <div class="span9"><div class="border-5-1 hide-border"></div></div>
+    </div>
+    <!-- end line break -->
+    <!-- begin social media icons -->
+    <div class="row">
+      <div class="span3 clearfix">
+        <ul class="social-icons">
+          <a href="https://github.com/" target="_blank"><li><i class="fa fa-github" aria-hidden="true"></i></li></a>
+          <a href="https://www.linkedin.com/" target="_blank"><li><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+          <a href="https://www.facebook.com/" target="_blank"><li><i class="fa fa-facebook-square" aria-hidden="true"></i></li></a>
+          <a href="https://plus.google.com/" target="_blank"><li><i class="fa fa-google-plus" aria-hidden="true"></i></li></a>
+          <a href="https://dribbble.com/" target="_blank"><li><i class="fa fa-dribbble" aria-hidden="true"></i></li></a>          
         </ul>
-        <h3 class="text-muted">EveryDayKenneth2018</h3>
       </div>
-
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
+      <!-- end social media icons -->
+      <!-- begin implementation of typed.js -->
+      <div class="span9 header-tweet">
+        <div class="typedjs"></div>
       </div>
+      <!-- end implementation of typed.js -->
+    </div>
+    <!-- begin line break -->
+    <div class="row">
+      <div class="span3"><div class="border-1-5"></div></div>
+      <div class="span9"><div class="border-1-5 hide-border"></div></div>
+    </div>
+    <!-- end line break -->
+<!-- end navigation bar -->
+</header>  
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+ <!-- begin main carousel -->
+  <div class="row">
+      <ul id="main-carousel" class="jcarousel-skin-tango" >
+        <!-- start carousel -->
 
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
+    <li>
+      <div class="carousel-box">
+        <div class="block view">
+        <img src="images/sliders/carousel/img03.jpg" alt="" />
+      <div class="mask">
+        <div class="mask-icon">
+          <div class="quartercircletopleft-mask"><a href="#"></a></div>
+          <div class="quartercircletopright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomleft-mask"><a href="#"></a></div>
+          <a href="assets/img/sliders/carousel/img03.jpg" data-rel="prettyPhoto" class="zoom-icon"></a>
+          </div><!-- mask-icon -->
+      </div><!-- mask -->
+      </div><!-- block -->  
+      <h4>Project Z</h4>
+      <div class="border-5-1"></div>
+      </div><!-- carousel-box -->
+    </li>
 
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
+    <li>
+      <div class="carousel-box">
+        <div class="block view">
+        <img src="images/sliders/carousel/jasmineJS.jpg" alt="Feed Reader Testing" />
+      <div class="mask">
+        <div class="mask-icon">
+          <div class="quartercircletopleft-mask"><a href="#"></a></div>
+          <div class="quartercircletopright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomleft-mask"><a href="#"></a></div>
+          <a href="assets/img/sliders/carousel/img01.jpg" data-rel="prettyPhoto" class="zoom-icon"></a>
+          </div><!-- mask-icon -->
+      </div><!-- mask -->
+      </div><!-- block -->  
+      <h4>Feed Reader Testing</h4>
+      <div class="border-5-1"></div>
+      </div><!-- carousel-box -->
+    </li>
+
+    <li>
+      <div class="carousel-box">
+        <div class="block view">
+        <img src="images/sliders/carousel/img01.jpg" alt="" />
+      <div class="mask">
+        <div class="mask-icon">
+          <div class="quartercircletopleft-mask"><a href="#"></a></div>
+          <div class="quartercircletopright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomleft-mask"><a href="#"></a></div>
+          <a href="assets/img/sliders/carousel/img01.jpg" data-rel="prettyPhoto" class="zoom-icon"></a>
+        </div><!-- mask-icon -->
+      </div><!-- mask -->
+      </div><!-- block -->  
+      <h4>Project X</h4>
+      <div class="border-5-1"></div>
+      </div><!-- carousel-box -->
+    </li>
+
+    <li>
+      <div class="carousel-box">
+        <div class="block view">
+        <img src="images/sliders/carousel/img04.jpg" alt="" />
+      <div class="mask">
+        <div class="mask-icon">
+          <div class="quartercircletopleft-mask"><a href="#"></a></div>
+          <div class="quartercircletopright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomleft-mask"><a href="#"></a></div>
+          <a href="images/sliders/carousel/img04.jpg" data-rel="prettyPhoto" class="zoom-icon"></a>
+          </div><!-- mask-icon -->
+      </div><!-- mask -->
+      </div><!-- block -->  
+      <h4>Project W</h4>
+      <div class="border-5-1"></div>
+      </div><!-- carousel-box -->
+    </li>
+
+    <li>
+      <div class="carousel-box">
+        <div class="block view">
+        <img src="images/sliders/carousel/img05.jpg" alt="" />
+      <div class="mask">
+        <div class="mask-icon">
+          <div class="quartercircletopleft-mask"><a href="#"></a></div>
+          <div class="quartercircletopright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomleft-mask"><a href="#"></a></div>
+          <a href="assets/img/sliders/carousel/img05.jpg" data-rel="prettyPhoto" class="zoom-icon"></a>
+          </div><!-- mask-icon -->
+      </div><!-- mask -->
+      </div><!-- block -->  
+      <h4>Project V</h4>
+      <div class="border-5-1"></div>
+      </div><!-- carousel-box -->
+    </li>
+
+    <li>
+      <div class="carousel-box">
+        <div class="block view">
+        <img src="images/sliders/carousel/img06.jpg" alt="" />
+      <div class="mask">
+        <div class="mask-icon">
+          <div class="quartercircletopleft-mask"><a href="#"></a></div>
+          <div class="quartercircletopright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomleft-mask"><a href="#"></a></div>
+          <a href="assets/img/sliders/carousel/img06.jpg" data-rel="prettyPhoto" class="zoom-icon"></a>
+          </div><!-- mask-icon -->
+      </div>
+      <!-- mask -->
+      </div>
+      <!-- block -->  
+      <h4>Project U</h4>
+      <div class="border-5-1"></div>
+      </div>
+      <!-- carousel-box -->
+    </li>
+    </ul>
+  </div>
+<!-- end main carousel -->
+  
+  <!-- row -->
+
+<!-- begin staggered intro section -->
+    <div class="row">
+      <div class="span3">
+        <div class="services clearfix">
+          <h4 class="colored">Welcome to EveryDayKenneth<br/>This is my personal developer portfolio website.</h4>
+          <p>Please take your time to view its various sections - if you're interested in contacting me, please feel free to click the link below</p>
+          <a href="#" class="rm-link">Contact Me</a>
         </div>
       </div>
-
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
+<!-- end staggered intro section -->
+<!-- begin page menus section -->   
+      <div class="srv-block">
+        <div class="srv-block1">
+          <h4 class="colored">My Portfolio</h4>
+          <p class="italic">Maecenas purus metus, interdum eu auctor eu, dignissim nec nisl. Suspendisse luctus placerat augue a cursus. Mauris sit amet odio ac urna placerat blandit at commodo eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          <div class="quartercircletopleft"><a href="#"></a></div>
+        </div><!-- srv-block1 -->
+        <div class="srv-block2">
+          <h4 class="colored">My Blog</h4>
+          <p class="italic">Legere semper everti at has, ea wisi periculis est, eos ut ullum error perfecto. Labores democritum ius cu, stet instructior mediocritatem eu mea. Ius ex saperet evertitur. Est in quot detraxit, soleat senserit no vis. Mei meis timeam maiorum et, te esse quas maluisset.</p>
+          <div class="quartercircletopright"><a href="#"></a></div>
+        </div><!-- srv-block1 -->
+        <div class="srv-block3">
+          <h4 class="colored">About Me</h4>
+          <p class="italic">Sed tale decore facete ad, lorem accusam electram at has. Iusto sententiae interpretaris mea ei, eum at eirmod vivendo. Soluta honestatis eam no, eu quo elitr semper, primis animal tamquam est eu. Vix id aliquam intellegam eloquentiam. Ne vel sumo ludus vivendum, cum eros magna delicata at. Dolore labores eos an, ut has quot commodo habemus.</p>
+          <div class="quartercirclebottomleft"><a href="#"></a></div>
+        </div><!-- srv-block1 -->
+        <div class="srv-block4">
+          <h4 class="colored">Contact Me</h4>
+          <ul class="italic unstyled">
+            <li><i class="icon-time"></i><p>I'm able to respond quickest via email. </p></li>
+            <li><i class="icon-envelope"></i><p>I'd love to understand and help with your coding project. </p></li>
+            <li></li>
+          </ul>
+          <div class="quartercirclebottomright"><a href="#"></a></div>
+        </div>
       </div>
     </div>
+<!-- end page menus section -->
+<!-- begin staggered page break -->
+    <div class="row margin40">
+      <div class="span3"><div class="border-5-1"></div></div>
+      <div class="span9"><div class="border-5-1 hide-border"></div></div>
+    </div>
+<!-- end staggered page break -->
+
+
+
+<!-- begin blog section -->
+    
+    <div class="row">
+      <div class="span3">
+        <div class="latest-projects clearfix">
+          <h4 class="colored">Visit My Blog</h4>
+          <p>Maecenas purus metus, interdum eu auctor eu, dignissim nec nisl. Suspendisse luctus placerat augue a cursus.</p>
+          <a href="#" class="rm-link">View all blog posts</a>
+        </div><!-- latest-projects -->
+      </div><!-- span3 -->
+      
+      <div class="projects-block">
+        <div class="span3">
+          <div class="projects-box view">
+            <img src="images/projects/img02.jpg" alt="Portfolio Item #1" />
+      <div class="mask">
+        <div class="mask-icon">
+          <div class="quartercircletopleft-mask"><a href="#"></a></div>
+          <div class="quartercircletopright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomleft-mask"><a href="#"></a></div>
+          <a href="item.html" class="link-icon"></a>
+      </div><!-- mask-icon -->
+      </div><!-- mask -->
+            <div class="projects-meta">
+              <span class="month">June</span>
+              <span class="date">05</span>
+              <span class="year">2017</span>
+            </div><!-- projects-meta -->
+          </div><!-- projects-box -->
+        </div><!-- span3 -->
+
+        <div class="span3">
+          <div class="projects-box view">
+            <img src="images/projects/img01.jpg" alt="Portfolio Item #2" />
+      <div class="mask">
+        <div class="mask-icon">
+            <div class="quartercircletopleft-mask"><a href="#"></a></div>
+            <div class="quartercircletopright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomleft-mask"><a href="#"></a></div>
+          <a href="item.html" class="link-icon"></a>
+<!--          <a href="item.html" class="link-icon"></a> -->
+        </div><!-- mask-icon -->
+      </div><!-- mask -->
+      <div class="projects-meta">
+              <span class="month">June</span>
+              <span class="date">02</span>
+              <span class="date">2017</span>
+            </div><!-- projects-meta -->
+          </div><!-- projects-box -->
+        </div><!-- span3 -->
+
+        <div class="span3">
+          <div class="projects-box view">
+            <img src="images/projects/img03.jpg" alt="Portfolio Item #3" />
+      <div class="mask">
+        <div class="mask-icon">
+            <div class="quartercircletopleft-mask"><a href="#"></a></div>
+            <div class="quartercircletopright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomright-mask"><a href="#"></a></div>
+          <div class="quartercirclebottomleft-mask"><a href="#"></a></div>
+          <a href="item.html" class="link-icon"></a>      
+<!--        <div class="mask-icon two">
+          <a href="item.html" class="link-icon"></a>
+          <a href="img/projects/img02.jpg" data-rel="zoom-img" class="zoom-icon"></a> -->
+        </div><!-- mask-icon -->
+      </div><!-- mask -->
+            <div class="projects-meta">
+              <span class="month">May</span>
+              <span class="date">23</span>
+              <span class="year">2017</span>
+            </div><!-- projects-meta -->
+          </div><!-- projects-box -->
+        </div><!-- span3 -->
+
+      </div><!-- projects-block -->
+    </div><!-- row -->
+    
+    <div class="row margin40">
+      <div class="span3"><div class="border-5-1"></div></div>
+      <div class="span9"><div class="border-5-1 hide-border"></div></div>
+    </div><!-- row -->
+<!-- end blog section -->
+
+<!-- begin footer section -->
+
+<!-- Footer
+================================================== -->
+  <footer class="footer row">
+    <div class="span3 footer-widgets cleafix">
+      <div class="logo-footer widget">
+        <h5>Contact Info</h5>
+    <ul id="contact-info" class="clearfix">
+      <li><i class="icon-map-marker icon-white"></i>12345 / Some Street, Portland, USA</li>
+      <li><i class="icon-user icon-white"></i>phone: +1 (44)  123-45-67</li>
+      <li><i class="icon-headphones icon-white"></i><a href="skype:echo123?call">Skype Me</a></li>
+      <li><i class="icon-envelope icon-white"></i><a href="mailto:support@color-theme.com">support@color-theme.com</a></li>
+<!-- 
+      <li><i class="location"></i><p>12345 / Some Street<br>Portland, USA</p></li>
+      <li><i class="phone"></i><p>phone: +1 (44)  123-45-67</p></li>
+      <li><i class="skype"></i><p><a href="skype:echo123?call">Skype Me</a></p></li>
+      <li><i class="email"></i><p class="last"><a href="mailto:support@color-theme.com">support@color-theme.com</a></p></li>
+-->     
+    </ul>
+      </div><!-- logo-footer -->
+    </div><!-- span3 -->
+    
+    <div class="span9 footer-widgets clearfix">
+    <div class="widget">
+      <h5>Popular Posts</h5>
+    <ul class="popular-posts">
+      <li>
+        <a href="#"><img src="images/blog/widgets/img01-40x40.jpg" alt="" /></a>
+        <a href="#">Artistic Wormhole</a>
+        <span class="date">June 24, 2012</span>
+      </li>
+      <li>
+        <a href="#"><img src="images/blog/widgets/img02-40x40.jpg" alt="" /></a>
+        <a href="#">Incredible Alcatraz</a>
+        <span class="date">June 22, 2012</span>
+      </li>
+      <li>
+        <a href="#"><img src="images/blog/widgets/img03-40x40.jpg" alt="" /></a>
+        <a href="#">Miniature Cathedral of Trier</a>
+        <span class="date">May 09, 2012</span>
+      </li>
+    </ul>
+    </div><!-- .widget -->
+
+    <div class="widget">
+      <h5>Latest Posts</h5>
+    <ul class="latest-posts">
+      <li>
+        <a href="#"><img src="images/blog/widgets/img04-40x40.jpg" alt="" /></a>
+        <a href="#">Who's Boss here</a>
+        <span class="date">Jule 02, 2012</span>     
+      </li>
+      <li>
+        <a href="#"><img src="images/blog/widgets/img01-40x40.jpg" alt="" /></a>
+        <a href="#">Artistic Wormhole</a>
+        <span class="date">June 24, 2012</span>
+      </li>
+      <li>
+        <a href="#"><img src="images/blog/widgets/img05-40x40.jpg" alt="" /></a>
+        <a href="#">Flickr Eggs</a>
+        <span class="date">May 14, 2012</span>
+      </li>
+    </ul>
+    </div><!-- .widget -->
+
+    <div class="widget">
+      <h5>Flickr Photos</h5>
+      <ul class="flickr thumbs"></ul>
+    </div><!-- .widget -->
+    
+    </div><!-- footer-widgets -->
+  </footer>
+
+  <div id="bottom-panel" class="clearfix">
+  <span>Copyright &copy; 2017 EveryDayKenneth.com</span></div>
+  </div>
+  <!-- end container -->
     
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
+<!--     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
       e=o.createElement(i);r=o.getElementsByTagName(i)[0];
       e.src='https://www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+    </script> -->
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     
-    <!-- build:js scripts/plugins.js -->
-    <script src="/bower_components/bootstrap/js/affix.js"></script>
-    <script src="/bower_components/bootstrap/js/alert.js"></script>
-    <script src="/bower_components/bootstrap/js/dropdown.js"></script>
-    <script src="/bower_components/bootstrap/js/tooltip.js"></script>
-    <script src="/bower_components/bootstrap/js/modal.js"></script>
-    <script src="/bower_components/bootstrap/js/transition.js"></script>
-    <script src="/bower_components/bootstrap/js/button.js"></script>
-    <script src="/bower_components/bootstrap/js/popover.js"></script>
-    <script src="/bower_components/bootstrap/js/carousel.js"></script>
-    <script src="/bower_components/bootstrap/js/scrollspy.js"></script>
-    <script src="/bower_components/bootstrap/js/collapse.js"></script>
-    <script src="/bower_components/bootstrap/js/tab.js"></script>
-    <!-- endbuild -->
+<!-- BEGIN CUSTOM JS -->
+<!-- begin JS loads -->
+  <script src="scripts/ajax-jquery-1.7.2.min.js"></script>
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+  <script src="scripts/jquery.easing.1.3.js"></script>
+  <script src="scripts/superfish.js"></script>    
+  <script src="scripts/bootstrap.min.js"></script>
+  <script src="scripts/jcarousel.min.js"></script>    
+  <script src="scripts/jquery.tweet.js"></script>
+  <script src="scripts/jflickrfeed.min.js"></script>
+  <script src="scripts/jquery.prettyPhoto.js"></script>
+  <script src="scripts/jquery.preloader.js"></script>
+    <!-- Support CSS3 Media Queries for IE 6-8 -->
+  <!-- <script src="scripts/respond.min.js"></script> -->
+
+
+
+  <!-- Switched out typed.js for twitter feed. -->
+  <script src="scripts/custom.js"></script> 
+
+  <!-- For Images Preloading -->
+  <script type="text/javascript">var runFancy = true;</script>
+
+    <!--[if IE]>
+    <script type="text/javascript">
+      runFancy = false;
+    </script>
+    <![endif]-->
     
+    <script type="text/javascript">
+      if (runFancy) {
+        jQuery.noConflict()(function($){
+          $(".view").preloader();
+          });
+        };
+  </script>
+  <!-- language menu JS -->
+  <script src="scripts/scripts.js"></script>
+  <!-- begin typed.js implementation -->
+  <script src="scripts/typed.js"></script>
+  <script src = "scripts/typedJSStrings.js"></script>
+  <!-- end typed.js implementation -->
+<!-- end JS loads -->
+
+<!-- END CUSTOM JS -->
+
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
